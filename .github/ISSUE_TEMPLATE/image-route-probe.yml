@@ -1,0 +1,10 @@
+name: Image route probe
+description: Harmless image upload route check
+body:
+  - type: upload
+    id: image
+    attributes:
+      label: Sample image
+      description: Harmless test image only
+    validations:
+      required: false
